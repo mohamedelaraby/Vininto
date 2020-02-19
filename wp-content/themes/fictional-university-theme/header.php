@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html <?php language_attributes(  );  // Set current site area language ?>>
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="<?php bloginfo( 'charset' );  // Set dynamic area character set ?>  ">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <?php wp_head(); ?>
 </head>
 
-<body> 
+<body <?php body_class(  ); // get all information about current page ?>> 
 
     <!-- [ header content ] -->
     <header class="site-header">
