@@ -1,5 +1,26 @@
-<?php get_header();  // get header file content 
+<?php get_header();  // get header file content ?>
+
+
+<?php
+
+
+
 ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -20,7 +20,7 @@ function university_files(){
     wp_enqueue_style('university_main_styles', get_stylesheet_uri(), Null, microtime());
 
     //  Loads javscript main file
-    wp_enqueue_script('main-university-js', get_theme_file_uri('/js/scripts-bundled.js'),NULL,microtime(),true );
+    wp_enqueue_script('main-university-js', get_theme_file_uri('/js/scripts-bundled.js'), NULL, microtime(),true );
 }
 
  // Hooks a function to a Specific action

@@ -8,7 +8,7 @@
     <?php wp_head(); ?>
 </head>
 
-<body>
+<body> 
 
     <!-- [ header content ] -->
     <header class="site-header">
