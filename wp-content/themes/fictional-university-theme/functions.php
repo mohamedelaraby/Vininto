@@ -34,7 +34,18 @@ function university_files(){
  * 
  */
  function university_features(){
-     // Setup dynamic title for each  page
+
+    // //  dynamic header navigation menu
+    // register_nav_menu('headerMenuLocation', 'Header Menu Location');
+
+    // //  Footer menus
+    // // Explore menu
+    // register_nav_menu('exploreFooterLocation', 'Explore Menu [Footer]');
+
+    // // Learn menu
+    // register_nav_menu( 'learnFooterLocation', 'Learn Menu [Footer]' );
+
+    // Setup dynamic title for each  page
     add_theme_support('title-tag');
 }
 
